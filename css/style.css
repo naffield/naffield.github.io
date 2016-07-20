@@ -2,4 +2,10 @@ body { background-color: orange; }
 .page-header {background-color:; size: 80; font-color:black; font-family: calibri; }
 .row2 {font-family: Calibri; font-size:50; padding-left:5% }
 .row3{color:black; size-font;}
-.euclid{rotate270}
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
